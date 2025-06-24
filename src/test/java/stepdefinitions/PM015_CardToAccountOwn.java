@@ -86,4 +86,5 @@ public class PM015_CardToAccountOwn extends Base {
         Operations.waitUntilElementIsVisible(PG014_CardToAccountOwn.GoToHomeButton, driver);
         Operations.click(PG014_CardToAccountOwn.GoToHomeButton, driver);
     }
+
 }
