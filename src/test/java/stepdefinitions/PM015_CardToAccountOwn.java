@@ -15,4 +15,14 @@ public class PM015_CardToAccountOwn extends Base {
         Operations.waitUntilElementIsVisible(PG014_CardToAccountOwn.selectOwnAccount, driver);
         Operations.click(PG014_CardToAccountOwn.selectOwnAccount, driver);
     }
+    @Then("I can enter amount by selecting amount slab")
+    public void iCanEnterAmountBySelectingAmountSlab() {
+        Operations.waitUntilElementIsVisible(PG014_CardToAccountOwn.amountSlab, driver);
+        Operations.click(PG014_CardToAccountOwn.amountSlab, driver);
+    }
+    @Then("I click on the Next button without entering Remarks")
+    public void iClickOnTheNextButtonWithoutEnteringRemarks() {
+        Operations.waitUntilElementIsVisible(PG014_CardToAccountOwn.nextButton, driver);
+        Operations.click(PG014_CardToAccountOwn.nextButton, driver);
+    }
 }
