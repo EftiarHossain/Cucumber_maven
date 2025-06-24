@@ -2,7 +2,6 @@ package stepdefinitions;
 
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Then;
-import objectRepository.PG012_Donation;
 import objectRepository.PG014_CardToAccountOwn;
 import utils.Base;
 import utils.FileHelper;
