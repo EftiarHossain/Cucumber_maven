@@ -16,3 +16,10 @@ Feature: Own Card to Account
 
   Scenario: Verify Successful Own Card to Account
     Then I can select Own Card to Account and Navigate to the Transfer Details page
+    Then I Can enter amount by selecting amount slab
+    Then I click on the Next button without entering Remarks
+    Then I can click on the Terms and Condition checkbox and Next button
+    Then I can Enter OTP "1111" and click on the Next button
+    Then I Can
+
+
