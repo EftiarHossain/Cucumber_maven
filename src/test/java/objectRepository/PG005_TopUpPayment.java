@@ -66,3 +66,4 @@ public class PG005_TopUpPayment {
     public static By fundTransferAddFavouriteToast = By.xpath("//div[@id='toast-container']");
 
 }
+

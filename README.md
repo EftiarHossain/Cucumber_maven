@@ -1,10 +1,6 @@
-# Selenium Cucumber Maven Project Documentation
+# Selenium Cucumber Maven Project
 
-## Overview
-
-This project is a **Selenium automation framework** using **Cucumber** with **Java** and **Maven**. It follows the **Page Object Model (POM)** for maintainability and scalability, making it easy to add new tests and extend functionality.
-
----
+This project is a **Selenium automation framework** using **Cucumber** with **Java** and **Maven**. It follows the **Page Object Model (POM)** for better maintainability and scalability.
 
 ## 📁 Project Structure
 
@@ -14,11 +10,8 @@ src/test/java
 │   ├── PG005_TopUpPayment.java
 │   ├── PG006_CardBillPayment.java
 │   ├── PG007_BillPayment.java
-│   ├── PG004_FundTransfer.java
-│   ├── PG012_Donation.java
-│   ├── ...
 │
-│── resources/features/     # Stores feature files for Cucumber scenarios (Gherkin)
+│── resources/features/     # Stores feature files for Cucumber scenarios
 │   ├── TC001_Navigation.feature
 │   ├── TC002_Login.feature
 │   ├── TC003_Dashboard_AccountAndCardSt.feature
@@ -40,56 +33,52 @@ src/test/java
 │   ├── Operations.java
 ```
 
----
-
 ## 🔹 Technologies Used
 
-- **Selenium WebDriver** – UI automation
-- **Cucumber** – BDD framework
-- **Java** – Programming language
-- **Maven** – Dependency management
-- **JUnit/TestNG** – Test execution
-
----
+- **Selenium WebDriver** - UI automation
+- **Cucumber** - BDD framework
+- **Java** - Programming language
+- **Maven** - Dependency management
+- **JUnit/TestNG** - Test execution
 
 ## 🚀 How to Run the Tests
 
-1. **Clone the Repository**
+1. **Clone the Repository**  
    ```sh
-   git clone https://github.com/EftiarHossain/Cucumber_maven.git
+   git clone <repository_url>
    ```
 
-2. **Install Dependencies**
+2. **Install Dependencies**  
    ```sh
    mvn clean install
    ```
 
-3. **Run Tests Using Maven**
+3. **Run Tests Using Maven**  
    ```sh
    mvn test
    ```
 
-4. **Run Specific Feature File**
+4. **Run Specific Feature File**  
    ```sh
    mvn test -Dcucumber.options="src/test/resources/features/TC002_Login.feature"
    ```
 
----
-
 ## 🛠 Key Components
 
-- **Object Repository (`objectRepository/`)**
-  - Java classes storing locators for UI elements, e.g. `PG004_FundTransfer.java`, `PG012_Donation.java`.
-- **Feature Files (`resources/features/`)**
-  - Contains scenarios written in Gherkin syntax (`Given-When-Then`).
-- **Step Definitions (`stepdefinitions/`)**
-  - Java classes implementing the steps described in feature files.
-- **Runner (`runners/`)**
-  - Configures and executes Cucumber tests.
-- **Utilities (`utils/`)**
-  - Helper classes for setup, teardown, and common actions (e.g. `Base.java`).
+- **Object Repository (`objectRepository/`)**  
+  Stores page objects for better code reusability.
 
----
+- **Feature Files (`resources/features/`)**  
+  Contains Gherkin syntax (`Given-When-Then`) for BDD scenarios.
+
+- **Step Definitions (`stepdefinitions/`)**  
+  Implements test steps for feature files.
+
+- **Runner (`runners/`)**  
+  Configures Cucumber execution.
+
+- **Utilities (`utils/`)**  
+  Contains helper classes like `Base.java` for setup and teardown.
 
 ## 📊 Reports and Logs
 
@@ -100,28 +89,4 @@ src/test/java
 
 ---
 
-## ✨ Best Practices & Tips
-
-- **Page Object Model**: Each page/screen has a dedicated class under `objectRepository`.
-- **Scenario Organization**: Feature files should be concise, well-named, and grouped by module or functionality.
-- **Reusable Steps**: Step definitions should be built for reuse across scenarios.
-- **Utility Classes**: Place all reusable logic (like browser setup or common actions) in the `utils` folder.
-
----
-
-## 💡 Example: Adding a New Test
-
-1. **Create a Feature File** in `resources/features/` describing the scenario.
-2. **Add Page Objects** for new UI elements in `objectRepository/`.
-3. **Implement Step Definitions** in `stepdefinitions/` for each step in your feature file.
-4. **Run Tests** with Maven to verify.
-
----
-
-## 🎯 Contributing
-
-Feel free to fork the repository, open issues, or submit pull requests to enhance automation coverage or improve framework capabilities.
-
----
-
-Happy Testing! 🚀
+This structure ensures maintainability, scalability, and efficiency in test automation. 🚀 Happy Testing! 🎯

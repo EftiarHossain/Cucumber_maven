@@ -21,3 +21,4 @@ Feature: Own Account Fund Transfer
 #    Then I can download the transaction receipt
     Then I can add the transaction to favourite "OwnFT"
     Then I can navigate to home clicking Go To Home
+

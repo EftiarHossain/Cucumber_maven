@@ -1,0 +1,74 @@
+<changelist name="Uncommitted_changes_before_cherry-pick_[Changes]" date="1755412035290" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_cherry-pick_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before cherry-pick [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG001_SplashPageOR.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM006_MfsFundTransfer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM001_SplashAndLogin.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM008_CardBillPayment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG004_FundTransfer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG006_CardBillPayment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG013_BusTicket.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG002_LoginPageOR.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG003_DashboardOR.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM004_WithinFundTransfer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM009_BillPayment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM002_Dashboard.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/utils/Operations.class" />
+    <option name="AFTER_PATH" value="target/test-classes/utils/Operations.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_cherry-pick_[Changes]/Operations.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM014_BusTicketFeature.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM003_OwnFundTransfer.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM013_Donation.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG012_Donation.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG005_TopUpPayment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/utils/Operations$1.class" />
+    <option name="AFTER_PATH" value="target/test-classes/utils/Operations$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_cherry-pick_[Changes]/Operations$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM007_TopUpPayment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/objectRepository/PG007_BillPayment.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/stepdefinitions/PM005_OtherFundTransfer.class" />
+  </binary>
+</changelist>

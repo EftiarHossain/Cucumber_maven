@@ -57,3 +57,4 @@ public class PG007_BillPayment {
     public static By fundTransferAddFavouriteToast = By.xpath("//div[@id='toast-container']");
 
 }
+

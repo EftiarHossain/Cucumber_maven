@@ -58,3 +58,4 @@ public class Hooks {
         System.out.println("Screenshot saved: " + screenshotPath.toString());
     }
 }
+

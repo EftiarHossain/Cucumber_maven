@@ -16,3 +16,4 @@ public class FileHelper {
         return "./AssertionError/" + baseName + "_" + timeStamp + ".png";
     }
 }
+
